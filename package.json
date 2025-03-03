@@ -1,0 +1,23 @@
+{
+  "name": "grocery-management",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev ./index.ts",
+    "build": "rimraf dist && tsc -p tsconfig.json"
+  },
+  "author": "Gaurav Dhuri",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.9",
+    "rimraf": "^6.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "tslib": "^2.8.1"
+  }
+}
